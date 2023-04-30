@@ -1,0 +1,63 @@
+896 [APP] qFlipper version 1.0.2 commit 9284d92a 2022-04-27T09:52:33
+896 [APP] OS info: Windows 10 Version 2009 10 10.0.19044
+1033 [RPC] Starting RPC session...
+1112 [RPC] RPC session started successfully.
+1112 [RPC] (1) System Device Info START
+1148 [UPD] Fetched update information from https://update.flipperzero.one/qFlipper/directory.json
+1204 [RPC] (1) System Device Info SUCCESS
+1204 [RPC] (2) Storage Info @/ext START
+1256 [RPC] (2) Storage Info @/ext SUCCESS
+1256 [RPC] (3) Storage Stat @/ext/Manifest START
+1308 [RPC] (3) Storage Stat @/ext/Manifest SUCCESS
+1309 [RPC] (4) System Get DateTime START
+1359 [DBG] Flipper time skew is 1270 milliseconds
+1359 [RPC] (4) System Get DateTime SUCCESS
+1359 [RPC] (5) System Set DateTime START
+1410 [RPC] (5) System Set DateTime SUCCESS
+1410 [RPC] Stopping RPC session...
+1431 [RPC] Attempting to unload protobuf plugin...
+1431 [RPC] Unloaded protobuf plugin.
+1431 [RPC] RPC session stopped successfully.
+1431 [REG] Registering the device
+1431 [DEV] Version: 0.43.1 commit: a4267626 radio: 1.12.1
+1431 [BKD] Current device changed to "Unc1n4"
+1439 [UPD] Fetched update information from https://update.flipperzero.one/firmware/directory.json
+1531 [RPC] Starting RPC session...
+1609 [RPC] RPC session started successfully.
+1609 [RPC] (1) Gui Start SreenStream START
+1659 [RPC] (1) Gui Start SreenStream SUCCESS
+3966 [RPC] (2) Gui Start VirtualDisplay START
+4056 [RPC] (2) Gui Start VirtualDisplay SUCCESS
+4369 [UPD] Fetched update information from https://update.flipperzero.one/firmware/directory.json
+4428 [DEV] Full Update @Unc1n4 START
+5401 [ZIP] Uncompressing file with size of 168696 bytes...
+5403 [ZIP] Uncompression finished : No Error
+5775 [ZIP] Uncompressing file with size of 26143 bytes...
+5776 [ZIP] Uncompression finished : No Error
+6199 [UTL] Backup /int @Unc1n4 START
+6200 [RPC] (3) Storage List @/int START
+6255 [RPC] (3) Storage List @/int SUCCESS
+6255 [RPC] (4) Storage Read @/int/bt.settings START
+6308 [RPC] (4) Storage Read @/int/bt.settings SUCCESS
+6308 [RPC] (5) Storage Read @/int/desktop.settings START
+6362 [RPC] (5) Storage Read @/int/desktop.settings SUCCESS
+6362 [RPC] (6) Storage Read @/int/dolphin.state START
+6415 [RPC] (6) Storage Read @/int/dolphin.state SUCCESS
+6416 [RPC] (7) Storage Read @/int/notification.settings START
+6471 [UTL] Backup /int @Unc1n4 SUCCESS
+6471 [RPC] (7) Storage Read @/int/notification.settings SUCCESS
+6471 [UTL] Start Recovery Mode @Unc1n4 START
+6471 [RPC] (8) System Reboot START
+6471 [RPC] (8) System Reboot SUCCESS
+6527 [RPC] Serial connection was lost.
+6527 [RPC] Stopping RPC session...
+6527 [RPC] Attempting to unload protobuf plugin...
+6527 [RPC] Unloaded protobuf plugin.
+6527 [RPC] RPC session stopped successfully.
+6559 [REG] Device went offline: VID_0x483:PID_0x5740
+8899 [REG] Detected new device: VID_0x483:PID_0xdf11
+8902 [DBG] Failed to initialise WinUsb device
+8902 [REG] Device initialization failed: Failed to initiate transaction
+126555 [UTL] Start Recovery Mode @Unc1n4 ERROR: Failed to start recovery mode: operation timeout
+126555 [DEV] Full Update @Unc1n4 ERROR: Failed to start recovery mode: operation timeout
+126555 [BKD] Current operation finished with error: "Failed to start recovery mode: operation timeout"
